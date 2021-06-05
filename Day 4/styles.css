@@ -1,0 +1,53 @@
+ html{
+    background-color: burlywood;
+} 
+
+.clock {
+    height: 50vh;
+    width: 50vh;
+    border: 10px solid rgb(134, 5, 31);
+    border-radius: 100vh;
+    padding: 50px;
+    position:absolute;
+    margin-left: 50vh;
+    margin-top: 20vh;
+}
+
+.hour{
+    border-top: 10px solid rgb(78, 19, 240);
+    width:75px;
+    position:absolute;
+    border-radius:50% 50%;  
+    left: 43%;
+    top:45%;
+    animation:hour 42300s linear infinite;
+    transform-origin: bottom left;     
+}
+
+.minute{
+    border-top: 7px solid rgb(7, 226, 233) ;
+    width:150px;
+    position: absolute;
+    border-radius:50% 50%;
+    left: 43%;
+    top:45%;
+    animation:hour 3600s linear infinite; 
+    transform-origin: bottom left;    
+}
+
+.second{
+    border-top: 5px solid black;
+    width:250px;
+    position: absolute;
+    border-radius:50% 50%;
+    left: 43%;
+    top:45%;
+    animation:hour 60s linear infinite; 
+    transform-origin: bottom left;   
+}
+
+@keyframes hour {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+
+}
