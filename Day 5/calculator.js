@@ -9,7 +9,7 @@ function dis(val) {
     document.getElementById("result").value = y;
   }
   
-  //function that clear the display
+  //function that clears 
   function clear() {
     document.getElementById("result").value = "";
   }
