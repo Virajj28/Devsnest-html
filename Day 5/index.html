@@ -10,32 +10,32 @@
 <body>
     <div class="calci">
         <form name="calc">
-            <input type="text" name="txt" placeholder="0">
+            <input type="text"  id="result" placeholder="0">
             <div class="numbers">
                 <div class="calCol">
-                    <span class="btn" onclick="document.calc.txt.value +='7'">7</span>
-                    <span class="btn" onclick="document.calc.txt.value +='4'">4</span>
-                    <span class="btn" onclick="document.calc.txt.value +='1'">1</span>
-                    <span class="btn" onclick="document.calc.txt.value +='+'">+</span>
+                    <span class="btn" value="7" onclick="dis('7')">7</span>
+                    <span class="btn" value="4" onclick="dis('4')">4</span>
+                    <span class="btn" value="1" onclick="dis('1')">1</span>
+                    <span class="btn" value="+" onclick="dis('+')">+</span>
                 </div>
                 <div class="calCol">
-                    <span class="btn" onclick="document.calc.txt.value +='8'">8</span>
-                    <span class="btn" onclick="document.calc.txt.value +='5'">5</span>
-                    <span class="btn" onclick="document.calc.txt.value +='2'">2</span>
-                    <span class="btn" onclick="document.calc.txt.value +='0'">0</span>
+                    <span class="btn" value="8" onclick="dis('8')">8</span>
+                    <span class="btn" value="5" onclick="dis('5')">5</span>
+                    <span class="btn" value="2" onclick="dis('2')">2</span>
+                    <span class="btn" value="0" onclick="dis('0')">0</span>
                 </div>
                 <div class="calCol">
  
-                    <span class="btn" onclick="document.calc.txt.value +='9'">9</span>
-                    <span class="btn" onclick="document.calc.txt.value +='6'">6</span>
-                    <span class="btn" onclick="document.calc.txt.value +='3'">3</span>
-                    <span class="btn" onclick="document.calc.txt.value +='-'">-</span>
+                    <span class="btn" value="9" onclick="dis('9')">9</span>
+                    <span class="btn" value="6" onclick="dis('6')">6</span>
+                    <span class="btn" value="3" onclick="dis('3')">3</span>
+                    <span class="btn" value="-" onclick="dis('-')">-</span>
                 </div>
                 <div class="calCol">
-                    <span class="btn" onclick="document.calc.txt.value +='='">=</span>
-                    <span class="btn" onclick="document.calc.txt.value +='*'">*</span>
-                    <span class="btn" onclick="document.calc.txt.value +='/'">/</span>
-                    <span class="btn" onclick="document.calc.txt.value =''">C</span>
+                    <span class="btn" value="=" onclick= "answer()">=</span>
+                    <span class="btn" value="*" onclick="dis('*')">*</span>
+                    <span class="btn" value="/" onclick="dis('/')">/</span>
+                    <span class="btn" value="" onclick="clear()">C</span>
                 </div>
             </div>
         </form>
