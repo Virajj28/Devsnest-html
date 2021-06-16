@@ -15,7 +15,24 @@
     console.log(Object.keys(student).length)
 
 //4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.
+    var library = [ 
+            { author: 'Bill Gates', title: 'The Road Ahead', readingStatus: true }, 
+            { author: 'Steve Jobs', title: 'Walter Isaacson', readingStatus: true }, 
+            { author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', readingStatus: false }
+        ]; 
 
-//5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes
+    library.forEach(item => console.log(item));
 
+//5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.      
+    var dim = {
+        r : 2,
+        h : 10,
+        vol ()  {
+            var pi = 3.142;
+            return (pi*this.r*this.r*this.h).toFixed(4);
+        }
+    };
+    console.log(dim.vol());
+    
 //6. Write a JavaScript program to sort an array of JavaScript objects.
+        
