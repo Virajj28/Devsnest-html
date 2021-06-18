@@ -1,0 +1,24 @@
+
+.box{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #010a04;
+    padding: 5px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background: rgb(224, 14, 14);
+    border: 0.5px solid brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.square:hover {
+    background: tomato ;
+}
+/* 
+.boxclicked{
+    background: whitesmoke;
+} */
