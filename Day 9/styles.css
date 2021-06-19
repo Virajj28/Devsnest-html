@@ -33,3 +33,7 @@
 .square:hover{
     background:  #7842c9;
 }
+
+.active {
+    background: blueviolet;
+}
