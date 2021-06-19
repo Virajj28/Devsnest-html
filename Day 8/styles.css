@@ -3,22 +3,49 @@
     display: inline-grid;
     grid-template-columns: auto auto auto;
     background-color: #010a04;
-    padding: 5px;
+    padding: 3px;
 }
 
 .square {
-    height: 50px;
-    width: 50px;
-    background: rgb(224, 14, 14);
+    height: 15px;
+    width: 15px;
+    background: rgb(253, 66, 66);
     border: 0.5px solid brown;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
 }
 
 .square:hover {
     background: tomato ;
 }
-/* 
-.boxclicked{
-    background: whitesmoke;
-} */
+
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . ."
+      ". . . . . . . . . . . . . . . . . . . .";
+  }
+  
