@@ -1,7 +1,7 @@
 
 let doublearr=["A", "B", "C", "D", "E", "F","A", "B", "C", "D", "E", "F"];
 
-randomm =(item)=>{
+random =(item)=>{
     return Math.floor(Math.random()*item.length)
 }
     
@@ -10,7 +10,7 @@ for(let i=0;i<12;i++){
     const newDiv = document.createElement(`div`);
     newDiv.className= 'child';
     newDiv.style.margin="5px";
-    newDiv.innerHTML=doublearr[randomm(doublearr)];
+    newDiv.innerHTML=doublearr[random(doublearr)];
     newDiv.style.backgroundColor= "black";
     set.append(newDiv);
 }
