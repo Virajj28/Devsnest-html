@@ -2,6 +2,7 @@ var outputDiv = document.querySelector('#output');
 var genButton = document.querySelector('#generate');
 var apiUrl = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw&type=single";
 
+//calling server for processing
 function getJokes() {
     fetch(apiUrl)
     .then (response => response.json())
