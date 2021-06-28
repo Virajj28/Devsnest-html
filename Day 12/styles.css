@@ -34,7 +34,7 @@ body {
       border: 2px solid rgb(153, 6, 36);
   }
   
-  .fa-plus , .fa-trash {
+  .fa-plus, .fa-trash, .fa-check {
       float: right;
       padding:0px 6px 10px 10px;
   }
