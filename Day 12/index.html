@@ -12,12 +12,8 @@
     <div class="app">
         <div class="container">
             <h1>To-Do List<i class="fa fa-plus"></i></h1>
-            <input type="text" placeholder="Add a to-do"> 
-            <ul>
-                <li> 
-                    <span><i class="fa fa-trash"></i><i class="fa fa-check" aria-hidden="true"></i></span>
-                    1hr Workout
-                </li>
+            <input id="input-todo" type="text" placeholder="Add a to-do" onkeypress="addTodo(event)"> 
+            <ul id="contain-todo">
             </ul>
         </div>
     </div>
