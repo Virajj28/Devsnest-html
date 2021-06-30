@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body{
+    font-family: 'Castoro', serif;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+
+.droptarget {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    margin: 15px;
+    padding: 30px;
+    border: 1px solid #aaaaaa;
+  }
+
+  button{
+    font-size: 4rem;
+    color: orange;
+    cursor: pointer;
+    padding: 0em .5em;
+    margin border: silver;
+    border-radius: 5em;
+    text-shadow:  0em  0em 0.25em yellow  ;
+  }
