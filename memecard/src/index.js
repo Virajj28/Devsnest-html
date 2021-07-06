@@ -1,14 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function App() {
-    return(
-        <div>
-            <h1>Hello! Good Morning</h1>
-            <p>from nervebody</p>
-        </div>
-    );
-}
+import App from "./App";
 
 
 ReactDOM.render(
