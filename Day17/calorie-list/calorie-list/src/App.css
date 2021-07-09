@@ -1,0 +1,16 @@
+h1{
+    color: orange;
+    background-color: rgb(252, 2, 2);
+    text-align: center;
+}
+
+.container {
+    padding: 20px 40px;
+}
+h1{
+    font-size: 1.8rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
