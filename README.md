@@ -5,9 +5,9 @@
  -> RESUME
  -> Analog Clock (HTML,CSS Animation)
  -> Calculator (HTML; CSS
-->CSS BATTLE
-->bus booking system
-->MEMORY GAME
-->MR.robot quiz
-->to do list
--> FETCH api
+ -> CSS BATTLE
+ -> Bus booking system
+ -> MEMORY GAME
+ -> MR.robot quiz
+ -> To do list
+ -> FETCH api
