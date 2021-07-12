@@ -1,3 +1,4 @@
+import data from "../cal-data/items";
 
 const calist = ({props}) => {
     const {name, calories} = props;

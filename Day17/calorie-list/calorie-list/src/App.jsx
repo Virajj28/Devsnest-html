@@ -7,8 +7,14 @@ function App() {
     <div className="App">
       <h1>Calories Tracking</h1>
       <div className="container">
-       items
-      
+      {data.map((items, calcount) => {
+          return (
+            <calist
+              key={calcount}
+              props={items}
+            />
+          );
+        })}
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const data = [
     },
     {
         name: 'Cake',
-        calorie: '182'
+        calories: '182'
     },
 
 ]
